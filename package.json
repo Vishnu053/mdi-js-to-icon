@@ -1,6 +1,6 @@
 {
   "name": "mdi-js-to-icon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An easy-to-use vue3 component to render @mdi/js paths",
   "main": "dist/mdi-js-to-icon.js",
   "module": "dist/mdi-js-to-icon.mjs",
