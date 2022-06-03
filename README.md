@@ -6,7 +6,14 @@ npm i mdi-js-to-icon
 
 ## Usage
 ```js 
-import Icon from 'mdi-js-to-icon'
+// main.js
+import mdiToIcon from 'mdi-js-to-icon'
+
+createApp(App)
+  .use(plugin)
+  .mount('#app')
+  
+// in your component
 import { mdiPlus } from '@mdi/js'
 
 // You can include the icon directly from @mdi/js
