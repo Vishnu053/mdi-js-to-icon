@@ -1,8 +1,13 @@
 {
   "name": "mdi-js-to-icon",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An easy-to-use vue3 component to render @mdi/js paths",
-  "main": "index.js",
+  "main": "dist/mdi-js-to-icon.js",
+  "module": "dist/mdi-js-to-icon.mjs",
+  "files": [
+    "dist/*",
+    "src/MdiToIconComp.vue"
+  ],
   "scripts": {
     "build": "rollup -c"
   },
@@ -17,7 +22,7 @@
   },
   "homepage": "https://github.com/Vishnu053/mdi-js-to-icon#readme",
   "peerDependencies": {
-    "vue": "^3.2.21"
+    "vue": "^3.2.25"
   },
   "devDependencies": {
     "rollup": "^2.75.5",
